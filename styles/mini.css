@@ -1,0 +1,123 @@
+@media screen and (max-width : 576px) {
+    .mini{
+        display: none;
+    }
+    .large{
+        display: block;
+    }
+
+    header{
+        padding: 20px;
+    }
+
+    /* navigation */
+
+    .navigation-title{
+        color: #3A3A3A;
+        font-family: Poppins;
+    }
+
+    .navigation-item-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-cart{
+        font-size: 18px;
+    }
+
+    /* banner */
+
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .banner-info,.banner-img{
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .banner-description{
+        text-align: center;
+    }
+
+    .preebok{
+        text-align: center;
+    }
+
+    
+    
+
+    /* company */
+
+    main{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .company-container{
+        justify-content: center;
+        gap: 20px;
+        border: 0;
+        padding: 0 10px;
+    }
+    .company-container img{
+        width: 50px;
+    }
+
+    /* collection */
+
+    .collection-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .collection-title {
+        font-size: 22px;
+       
+    }
+    
+    .collection-price {
+        font-size: 18px;
+    }
+
+    /* feature-product */
+
+    .feature-product {
+        margin-top: 70px;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .feature-info{
+        text-align: center;
+    }
+
+    .feature-title {
+        font-size: 25px;
+    }
+
+    .feature-title {
+        font-size: 20px;
+    }
+    
+    .feature-description {
+        width: 100%;
+    }
+    
+    .feature-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    
+
+   
+    
+}
